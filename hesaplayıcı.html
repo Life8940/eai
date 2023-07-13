@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <b><title>HADİ HESAPLAYALIM!</title></b>
+            <div class="container">
+              <b><p>Sorulara vermiş olduğunuz cevaplarınız nadiren , kullanılmıyor ya da harcama yapılmıyor ise cevap kutusuna 1 yazın.
+                 Kullandığınız yakıt biyoyakıt ise 1 yazınız.
+                 haftada 1 kez için 2 , neredeyse her gün için 3 ,
+                 günde 1 veya 2 kez için 4 , her öğünde ya da her zaman için 5 yazınız.
+              </p></b>
+              <hr>
+              <b><p>Harcadığınız para miktarı 100 TL den az ise 2, 100-150 TL arasında ise 3 , 
+                150-200 TL arasında ise 4 ve 200 TL den fazla ise 5 yazınız. 
+                Araç kullanılmıyor ise 1 , harcama yapımıyor ise 1 
+                ya da hiç gitmiyorsanız da 1 yazınız.
+                Araçla gittiğiniz yol 50 km den az ise 1 ,
+                50-75 km arası ise 2 , 75-100 arası ise 3 ,
+                100 km ise 4 ve 100 km den fazla ise 5 yazınız. </p></b>
+                <hr>
+              <b><p>Çıkan toplam sayı 20 den küçük ise ekolojik ayak iziniz küçük , 20-35 arası ise orta , 35-50 arası ise büyüktür. </p></b>
+            </div>
+            <div class="box">
+                <form>
+                <table>
+                    <tr>
+                      <th>Soru</th>
+                      <th>Cevap</th>
+                    </tr>
+                    <tr>
+                      <td>Evinizde kaç kişi yaşıyor?</td>
+                      <td><input type="text" name="cevap1" id="sayi1" placeholder="Sayı Giriniz"></td>
+                    </tr>
+                    <tr>
+                      <td>Hangi sıklıkla kırmızı et ya da tavuk eti tüketiyorsunuz?</td>
+                      <td><input type="text" name="cevap2" id="sayi2" placeholder="Sayı Giriniz"></td>
+                    </tr>
+                    <tr>
+                      <td>Ne sıklıkla bitkisel besinleri ( meyve , sebze , tahıl ) tüketiyorsunuz?</td>
+                      <td><input type="text" name="cevap3" id="sayi3" placeholder="Sayı Giriniz"></td>
+                    </tr>
+                    <tr>
+                      <td>Giyim için aylık ne kadar para harcanıyor?</td>
+                      <td><input type="text" name="cevap1" id="sayi4" placeholder="Sayı Giriniz"></td>
+                    <tr>
+                      <td>Isınmak için ne tür yakıt kullanıyorsunuz?</td>
+                      <td><input type="text" name="cevap1" id="sayi5" placeholder="Sayı Giriniz"></td>
+                    <tr>
+                      <td>Evinizin dekorasyonu ve bakımı için aylık ne kadar para harcanıyor?</td>
+                      <td><input type="text" name="cevap1" id="sayi6" placeholder="Sayı Giriniz"></td>
+                    <tr>
+                      <td>Sanatsal ve kültürel faaliyetler için aylık ne kadar para harcanıyor?</td>
+                      <td><input type="text" name="cevap1" id="sayi7" placeholder="Sayı Giriniz"></td>
+                    <tr>
+                      <td>Ailenizde ne tür bir araç kullanılıyor?</td>
+                      <td><input type="text" name="cevap1" id="sayi8" placeholder="Sayı Giriniz"></td>
+                    <tr>
+                      <td>Araçla haftada kaç kilometre yol gidiliyor?</td>
+                      <td><input type="text" name="cevap1" id="sayi9" placeholder="Sayı Giriniz"></td>
+                    <tr>
+                      <td>Uçakla bir yılda kaç saat yol gidiyorsunuz?</td>
+                      <td><input type="text" name="cevap1" id="sayi10" placeholder="Sayı Giriniz"></td>
+                    <tr>
+                  </table>
+                </form>
+            </div>
+            <div class="contain">
+              <button onclick="toplama()">Hesapla</button>
+            </div>
+            <hr>
+            <b><p><ol>Ekolojik ayak iziniz küçükse alışkanlıklarınız doğrudur. Aynı yaşam tarzı ile devam ediniz.</ol>
+              <ol>Ekolojik ayak iziniz ortalama ise alışkanlıklarınızı biraz değiştirmelisiniz. 
+                Örneğin alışveriş için harcadığınız miktarı azaltın ya da toplu taşıma araçlarını kullanın.
+                Toplu taşıma kullanmak kişisel aracınızı kullanmaktan daha az maliyetli olacaktır. 
+                 Çünkü en az bir depo benzin 1083 TL iken aylık ulaşım ücretiniz 777 TL olacaktır. </ol>
+              <ol>Ekolojik ayak iziniz büyük ise kesinlikle alışkanlıklarınızı değiştirmelisiniz.
+                Bunun için et ürünleri yerine daha çok tahıl tüketebilir , daha az uçakla seyahat edebilir , 
+                alışveriş için harcadığınız kişi başı para miktarını azaltabilir , 
+                kişisel araç yerine toplu taşımaya yönebilirsiniz.
+                Örneğin kişisel aracınız için en az bir depo benzin 1083 TL ödemek yerine toplu taşımaya aylık 777 TL vermek sizinyararınıza olacaktır. 
+                Bunun yanında örneğin yenilenebilir kaynaklara yönelebilirsiniz (güneş paneli kullanmak gibi)
+                güneş paneli için a sınıfı 100 watt bir güneş panelini internette 2180 TL ye alabilirsiniz.
+                Bu sizin elektrik kullanımınızın  en az aylık 300 Tl ile yıllık 3600 TL olmasına göre daha avantajlı olmanızı sağlar. </ol>
+            </p></b>
+        </body>
+     </head>
+</html>           
+<style>
+        body{
+          background-color:peachpuff;
+            }
+        title{
+         font-family: cursive;
+         color: rgb(238, 128, 147);
+         font-size: medium;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 30px;
+            }
+        table {
+         border-collapse: collapse;
+         width: 100%;
+         font-family: cursive;
+              }
+                        
+         th, td {
+         border: 1px solid gray;
+         padding: 8px;
+         text-align: left;
+                }
+                        
+          th {
+          background-color: #f2f2f2;
+             }
+
+        .contain{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+        }
+
+        button{
+            font-family: cursive;
+            background-color: salmon;
+            border: 2px solid gray;
+        }
+
+        p{
+          font-family: cursive;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-right: 20px;
+          padding-left: 20px;
+          padding-bottom: 20px;
+        }
+
+        ol{
+          font-family: cursive;
+        }
+
+        hr{
+          color: black;
+        }
+</style>
+<script>
+     function toplama() {
+            var sayi1 = parseInt(document.getElementById("sayi1").value);
+            var sayi2 = parseInt(document.getElementById("sayi2").value);
+            var sayi3 = parseInt(document.getElementById("sayi3").value);
+            var sayi4 = parseInt(document.getElementById("sayi4").value);
+            var sayi5 = parseInt(document.getElementById("sayi5").value);
+            var sayi6 = parseInt(document.getElementById("sayi6").value);
+            var sayi7 = parseInt(document.getElementById("sayi7").value);
+            var sayi8 = parseInt(document.getElementById("sayi8").value);
+            var sayi9 = parseInt(document.getElementById("sayi9").value);
+            var sayi10 = parseInt(document.getElementById("sayi10").value);
+            var sonuc = sayi1 + sayi2 + sayi3 + sayi4 + sayi5 + sayi6 + sayi7 + sayi8 + sayi9 + sayi10;
+            alert("Sonuç: " + sonuc);
+     }
+ 
+
+</script>
+
+
+            
